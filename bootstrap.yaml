@@ -1,0 +1,11 @@
+bootstrap_servers:
+  - host: "localhost"
+    port: 8080
+    pubkey: "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1234567890abcdef"  # Placeholder - replace with actual RSA-4096 public key
+  - host: "FRIEND_IP_ADDRESS"
+    port: 8080
+    pubkey: "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAfedcba0987654321"  # Replace with friend's server public key
+  - host: "192.168.1.100"
+    port: 8080
+    pubkey: "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5555666677778888"  # Placeholder - replace with actual RSA-4096 public key
+    
